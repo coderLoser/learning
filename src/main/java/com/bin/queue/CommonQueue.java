@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 /**
  * 普通的单向队列
- * @param <T>
+ * @date 2020.5.7
  */
 public class CommonQueue<T> extends AbstractQueue<T> implements Serializable {
     private static final long serialVersionUID = 6210614755646588873L;
