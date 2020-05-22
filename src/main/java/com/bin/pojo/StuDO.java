@@ -10,6 +10,8 @@ public class StuDO {
     private LocalDate birthday;
     private String addr;
 
+    private StuPhoto stuPhoto;
+
     public int getId() {
         return id;
     }
@@ -58,6 +60,14 @@ public class StuDO {
         this.addr = addr;
     }
 
+    public StuPhoto getStuPhoto() {
+        return stuPhoto;
+    }
+
+    public void setStuPhoto(StuPhoto stuPhoto) {
+        this.stuPhoto = stuPhoto;
+    }
+
     @Override
     public String toString() {
         return "StuDO{" +
@@ -67,6 +77,7 @@ public class StuDO {
                 ", sex=" + sex +
                 ", birthday=" + birthday +
                 ", addr='" + addr + '\'' +
+                ", stuPhoto=" + stuPhoto +
                 '}';
     }
 }
